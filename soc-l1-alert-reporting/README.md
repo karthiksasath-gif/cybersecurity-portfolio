@@ -1,4 +1,4 @@
-# Project Report: SOC L1 Alert Triage, Investigation, and Escalation
+# SOC L1 Alert Triage, Investigation, and Escalation
 
 ## Project Overview
 This project documents the end-to-end triage, investigation, and escalation workflow for security alerts within a simulated Security Operations Center (SOC) environment. The objectives include evaluating alerts, determining true positives (TP), executing proper containment and communication steps, and escalating complex incidents to Tier 2 (L2) analysts.

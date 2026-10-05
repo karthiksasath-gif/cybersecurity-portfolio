@@ -20,7 +20,7 @@ Each project below follows a consistent methodology: triage → investigation �
 | **Investigations documented** | 4 projects, 10+ individual alert cases |
 | **Platforms covered** | Windows (Security Logs, Sysmon), Linux (auth/syslog, cron), Web server logs |
 | **Tools used** | Splunk, Microsoft Sentinel, Wazuh, Sysmon, Wireshark, Snort, Nmap |
-| **Education** | M.Sc Cyber Forensics & Cyber Security (Amity University, in progress) |
+| **Education** | M.Sc Cyber Forensics & Cyber Security (Amity University, Noida, Uttar Pradesh) |
 
 ---
 
@@ -56,8 +56,8 @@ Supported security operations through monitoring, analysis, and documentation of
 ---
 
 ## 📜 Certifications & Training
-- Fortinet NSE 2 – Network Security Associate *(Completed — [update with your date])*
-- Fortinet – Cybersecurity and Cloud Fundamentals 1.0 *(September 2026)*
+- Fortinet NSE 2 – Introduction to Next Generation Firewall 1.0 *(October 2026)*
+- Fortinet NSE 1 – Cybersecurity and Cloud Fundamentals 1.0 *(September 2026)*
 - Intro to Splunk – Splunk Education *(January 2026)*
 - TryHackMe SOC Level 1 Path *(In Progress)*
 - AWS Security Learning Plan – Threat Detection and Incident Response *(In Progress)*

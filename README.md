@@ -4,7 +4,7 @@
 
 SOC Monitoring · Incident Triage · Log Analysis · Detection Engineering
 
-📍 Chennai, India · 📧 [karthiksasath@gmail.com](mailto:karthiksasath@gmail.com) · 🔗 [LinkedIn](https://www.linkedin.com/in/karthik-s-2a0aaa275) · 📄 [Resume](./Karthik_S_SOC_Analyst_Resume.pdf)
+📍 Chennai, India · 📧 [karthiksasath@gmail.com](mailto:karthiksasath@gmail.com) · 🔗 [LinkedIn](https://www.linkedin.com/in/karthik-s04/) · 📄 [Resume](./Karthik_S_SOC_Analyst_Resume.pdf)
 
 ---
 

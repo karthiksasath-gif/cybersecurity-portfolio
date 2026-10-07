@@ -1,14 +1,16 @@
-# Karthik S — SOC Analyst Portfolio 🛡️
+# Karthik S — Cyber Security Portfolio 🛡️
 
-**Entry-Level Cybersecurity Professional** | SOC Monitoring · Incident Triage · Log Analysis · Threat Detection
+**Blue Teamer** | Looking for Entry-Level SOC Analyst / Incident Response Roles
+
+SOC Monitoring · Incident Triage · Log Analysis · Detection Engineering
 
 📍 Chennai, India · 📧 [karthiksasath@gmail.com](mailto:karthiksasath@gmail.com) · 🔗 [LinkedIn](https://www.linkedin.com/in/karthik-s-2a0aaa275) · 📄 [Resume](./Karthik_S_SOC_Analyst_Resume.pdf)
 
 ---
 
-Welcome to my security operations portfolio! This repository is a centralized collection of hands-on lab investigations, SIEM alert triages, log analyses, and incident response workflows — built to demonstrate real SOC L1 analyst competencies alongside my professional internship experience.
+Welcome to my cybersecurity portfolio! I'm a blue teamer focused on security monitoring, threat detection, and incident response — actively looking for an entry-level **SOC Analyst** or **Incident Response** role. This repository is a centralized collection of hands-on lab investigations, SIEM alert triages, log analyses, detection rule engineering, and incident response workflows, built to demonstrate real SOC L1 competencies alongside my professional internship experience.
 
-Each project below follows a consistent methodology: triage → investigation → severity classification → verdict → remediation, mirroring how a real analyst ticket is worked end-to-end.
+Each project below follows a consistent methodology — triage → investigation → severity classification → verdict → remediation — mirroring how a real analyst ticket is worked end-to-end. The two most recent projects go a step further, into the engineering side of SOC work: building and tuning the detection rules that generate alerts in the first place.
 
 ---
 
@@ -17,9 +19,10 @@ Each project below follows a consistent methodology: triage → investigation �
 | | |
 | :--- | :--- |
 | **Experience** | SOC/Security Intern — Sworks Infotech Pvt Ltd (May–Jul 2025) |
-| **Investigations documented** | 4 projects, 10+ individual alert cases |
+| **Projects documented** | 6 projects, 15+ individual alert cases and detection rules |
 | **Platforms covered** | Windows (Security Logs, Sysmon), Linux (auth/syslog, cron), Web server logs |
-| **Tools used** | Splunk, Microsoft Sentinel, Wazuh, Sysmon, Wireshark, Snort, Nmap |
+| **Tools used** | Splunk, Microsoft Sentinel, Elastic Security, Wazuh, Sysmon, Wireshark, Snort, Nmap |
+| **Query Languages** | SPL, KQL, EQL |
 | **Education** | M.Sc Cyber Forensics & Cyber Security (Amity University, Noida, Uttar Pradesh) |
 
 ---
@@ -35,19 +38,23 @@ Supported security operations through monitoring, analysis, and documentation of
 
 | Project Name | Focus Area & Description | Key Technologies |
 | :--- | :--- | :--- |
-| ⭐ **[Windows Security & Sysmon Investigation](./windows-security-and-sysmon-investigation/)** | Full forensic investigation of a simulated breach on THM-PC — complete kill chain from credential compromise through C2 communication, correlated across 3 log sources. | Windows Security Logs, Sysmon, PowerShell, IoC Extraction |
+| ⭐ **[Detection Rule Engineering & Attack Chain Analysis](./Detection-Rules-Developement/)** | Authored and tuned atomic, stateful, correlation-based, and anomaly detection rules against a full attack chain (brute-force → recon → credential dumping → lateral movement) in Elastic Security. | Elastic Security, KQL, EQL, MITRE ATT&CK, Detection Tuning |
+| **[Windows Security & Sysmon Investigation](./windows-security-and-sysmon-investigation/)** | Full forensic investigation of a simulated breach on THM-PC — complete kill chain from credential compromise through C2 communication, correlated across 3 log sources. | Windows Security Logs, Sysmon, PowerShell, IoC Extraction |
 | **[Log Analysis with SIEM (Splunk)](./Log-Analysis-with-SIEM-Splunk/)** | End-to-end multi-platform log analysis: Windows Sysmon process auditing, Linux authentication auditing, cron persistence, and web server brute-force investigation. | Splunk SIEM, Windows Sysmon, Linux Auth Logs, Web Server Logs, IoC Extraction |
+| **[Wazuh SIEM & XDR Platform Exploration](./wazuh-siem-exploration/)** | Platform-side SIEM work — deployment, CIS compliance benchmarking, vulnerability detection, and custom decoder/rule configuration. | Wazuh, CIS Benchmarks, Vulnerability Management, FIM |
 | **[SOC Alert Triage Workflow](./soc-alert-triage-workflow/)** | Live SIEM alert queue management — prioritization logic, telemetry analysis, True/False Positive verdict classification, and remediation actions. | SIEM, Alert Triage, Verdict Classification, Incident Response |
 | **[SOC L1 Alert Reporting & Escalation](./soc-l1-alert-reporting/)** | End-to-end incident triage, True Positive classification, analyst reporting, and L2 escalation workflows for phishing, DLP breaches, and AD domain discovery. | SIEM, DLP, Incident Escalation, Phishing Analysis |
 
-*Start with the ⭐ Sysmon investigation — it's the most complete single case study, covering the full attack lifecycle across three log sources.*
+*Start with the ⭐ Detection Rule Engineering project — it's the most technically complete piece, covering not just alert triage but how detection logic itself gets built, tested, and tuned.*
 
 ---
 
 ## 🛠 Technical Skills
 
 - **Security Operations:** Security Monitoring, Alert Triage, Incident Investigation, Log Analysis, Threat Identification, Vulnerability Assessment, Incident Response, Incident Escalation
-- **SIEM & Security Tools:** Splunk, Microsoft Sentinel, Wazuh, Sysmon, Wireshark, Snort, Nmap
+- **Detection Engineering:** Atomic/stateful/correlation/anomaly detection design, rule tuning (thresholds, suppression, grouping), MITRE ATT&CK mapping
+- **SIEM & Security Tools:** Splunk, Microsoft Sentinel, Elastic Security, Wazuh, Sysmon, Wireshark, Snort, Nmap
+- **Query Languages:** SPL (Splunk), KQL (Kusto/Kibana), EQL (Event Query Language)
 - **Networking:** TCP/IP, DNS, DHCP, HTTP/HTTPS, Network Traffic Analysis, Network Security
 - **Operating Systems:** Windows, Linux
 - **Frameworks & Concepts:** MITRE ATT&CK, NIST Cybersecurity Framework (CSF), SOC Operations Workflow, STRIDE Threat Modeling

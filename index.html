@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Karthik S — Entry-Level SOC Analyst | SIEM &amp; Detection Engineering</title>
+<meta name="description" content="Karthik S is an entry-level SOC analyst from Chennai with hands-on work in SIEM alert triage, log analysis, incident investigation and detection rule engineering (Splunk, Elastic Security, Wazuh).">
+<meta name="keywords" content="SOC analyst, entry-level SOC analyst, incident response, SIEM, detection engineering, Splunk, Elastic Security, Wazuh, MITRE ATT&amp;CK, Chennai">
+<meta name="author" content="Karthik S">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Karthik S — Entry-Level SOC Analyst">
+<meta property="og:description" content="SIEM alert triage, log analysis, incident investigation and detection engineering projects, with full write-ups.">
+<meta property="og:image" content="https://karthiksasath-gif.github.io/assets/images/karthik-profile.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0D1117">
+<link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">karthik<span>.s</span> / soc</a>
+    <button class="nav-btn" id="navBtn" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span></button>
+    <nav aria-label="Main">
+      <ul class="menu" id="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- PROFILE HEADER -->
+<section class="profile" id="top" aria-labelledby="profile-title">
+  <div class="wrap">
+    <div class="profile-grid">
+      <div>
+        <span class="chip">Open to entry-level SOC Analyst &amp; Incident Response roles</span>
+        <h1 id="profile-title">Karthik S</h1>
+        <p class="role">Entry-Level SOC Analyst · SIEM &amp; Detection Engineering</p>
+        <p class="intro">I investigate SIEM alerts, reconstruct attacker activity from logs, and write and tune detection rules. My portfolio has six documented projects built with Splunk, Elastic Security, Wazuh and a SOC alert simulator, each with a write-up, evidence screenshots and remediation steps.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#projects">View projects</a>
+          <a class="btn btn-ghost" href="assets/resume/Karthik_S_SOC_Analyst_Resume.pdf" target="_blank" rel="noopener">View resume</a>
+          <a class="btn btn-ghost" href="#contact">Contact me</a>
+        </div>
+        <p class="loc">Chennai, India · M.Sc Cyber Forensics &amp; Cyber Security (completed May 2026)</p>
+      </div>
+      <figure class="photo">
+        <img src="assets/images/karthik-profile.jpg" width="900" height="900" alt="Portrait of Karthik S in a black blazer">
+        <figcaption><span>Karthik S</span><span>SOC · Blue Team</span></figcaption>
+      </figure>
+    </div>
+
+    <div class="stats" aria-label="Portfolio at a glance">
+      <div class="stat"><b>6</b><span>documented projects, each with a public write-up</span></div>
+      <div class="stat"><b>3</b><span>SIEM / XDR platforms used in projects: Splunk, Elastic, Wazuh</span></div>
+      <div class="stat"><b>22 → 1</b><span>alerts after reworking a recon detection rule (lab)</span></div>
+      <div class="stat"><b>3 mo</b><span>security internship, Sworks Infotech (2025)</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" aria-labelledby="about-title">
+  <div class="wrap about-grid">
+    <div class="reveal">
+      <p class="eyebrow">01 / About</p>
+      <h2 class="sec-title" id="about-title">About me</h2>
+      <p>I'm an entry-level cybersecurity professional focused on SOC monitoring, incident triage, log analysis and detection engineering. My project work covers triaging simulated SIEM alerts through to a verdict and remediation, reconstructing a full Windows breach across three log sources, and writing and tuning detection rules in Elastic Security.</p>
+      <p>I studied Forensic Science (B.Sc) and then Cyber Forensics &amp; Cyber Security (M.Sc, completed May 2026), so I tend to work evidence-first: write down what the logs show, then decide what it means. During a security internship at Sworks Infotech I worked with SIEM and IDS/IPS tools and did network traffic analysis.</p>
+      <p>I'm looking for an entry-level SOC Analyst or Incident Response role where I can keep building toward detection engineering and threat hunting.</p>
+    </div>
+    <div class="panel reveal">
+      <h3>What I can show</h3>
+      <ul>
+        <li>Alert triage with written True/False Positive reasoning</li>
+        <li>Correlating Windows, Linux and web server logs</li>
+        <li>Writing and tuning detection rules in KQL and EQL</li>
+        <li>Incident notes and L1 → L2 escalation</li>
+        <li>Forensic, evidence-first investigation habits</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" aria-labelledby="projects-title">
+  <div class="wrap">
+    <p class="eyebrow">02 / Cybersecurity projects</p>
+    <h2 class="sec-title" id="projects-title">Investigations &amp; detection work</h2>
+    <p class="sec-lead">All six are hands-on labs (TryHackMe environments), not production incidents. Open a card for the findings, evidence and recommendations, or go to the full write-up on GitHub.</p>
+
+    <div class="filters" role="group" aria-label="Filter projects">
+      <button class="filter" data-filter="all" aria-pressed="true">All (6)</button>
+      <button class="filter" data-filter="detection" aria-pressed="false">Detection engineering</button>
+      <button class="filter" data-filter="investigation" aria-pressed="false">Investigation</button>
+      <button class="filter" data-filter="triage" aria-pressed="false">Alert triage &amp; escalation</button>
+      <button class="filter" data-filter="platform" aria-pressed="false">SIEM platform</button>
+    </div>
+
+    <div class="tickets">
+
+      <!-- PRJ-01 -->
+      <article class="ticket reveal" data-cat="detection">
+        <div class="t-head"><span class="t-id">PRJ-01</span><span class="tag">Detection engineering</span></div>
+        <h3>Detection Rule Engineering &amp; Attack Chain Analysis</h3>
+        <p class="t-meta">Lab: TryHackMe · Elastic Security · KQL · EQL · MITRE ATT&amp;CK</p>
+        <p class="t-sum">Researched an attack chain (RDP brute force, recon, credential dumping, lateral movement) and wrote atomic, stateful, correlation and anomaly-style detections for it, then tuned a noisy rule.</p>
+        <div class="result">
+          <div>Key result: <b>recon rule reworked from 22 alerts to 1</b></div>
+          <div>Spray detected: <b>50 failures, 10 usernames, one IP</b></div>
+        </div>
+        <details>
+          <summary>View investigation details</summary>
+          <div class="d-body">
+            <div>
+              <h4>What I built</h4>
+              <ul>
+                <li><b>Atomic:</b> custom query rule for recon commands. Removed a false positive (<code>ngentask.exe</code>) and added a missed tool (<code>nltest.exe</code>). Preview fired 22 alerts, one per command.</li>
+                <li><b>Stateful:</b> threshold rule on failed network logons, grouped by <code>source.ip</code> with a minimum of 5 distinct usernames. Medium severity, risk score 47.</li>
+                <li><b>Correlation:</b> EQL sequence for 10+ failed logons followed by a successful RDP logon from the same IP within 5 minutes. High severity, risk score 73, with alert suppression on <code>source.ip</code> to stop duplicate alerts.</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Tuning &amp; anomaly work</h4>
+              <ul>
+                <li><b>Tuning:</b> rebuilt the recon rule as a threshold rule grouped by <code>host.name</code> and <code>LogonId</code> (3 or more commands per session). The attacker's session was the single remaining alert.</li>
+                <li><b>Anomaly:</b> shown conceptually in Discover (service-install baseline on one host) because the lab licence did not include ML rules.</li>
+                <li><b>Takeaway:</b> research the technique and the data source before writing the query; plan to tune every rule.</li>
+              </ul>
+            </div>
+            <figure class="shot full">
+              <img src="assets/projects/detection-rule-preview.jpg" width="1400" height="590" loading="lazy" alt="Elastic Security rule preview for the threshold rule showing Medium severity and risk score 47">
+              <figcaption>Elastic Security: preview of the password-spray threshold rule (Medium, risk score 47).</figcaption>
+            </figure>
+          </div>
+          <div class="t-links"><a class="btn btn-ghost" href="https://github.com/karthiksasath-gif/cybersecurity-portfolio/tree/main/Detection-Rules-Developement" target="_blank" rel="noopener">Full write-up on GitHub</a></div>
+        </details>
+      </article>
+
+      <!-- PRJ-02 -->
+      <article class="ticket reveal" data-cat="investigation">
+        <div class="t-head"><span class="t-id">PRJ-02</span><span class="tag">Investigation</span><span class="sev crit">Overall severity: Critical</span></div>
+        <h3>Windows Security &amp; Sysmon Investigation</h3>
+        <p class="t-meta">Lab: TryHackMe · Host THM-PC · Windows Security Logs · Sysmon · PowerShell history</p>
+        <p class="t-sum">Rebuilt the full kill chain of a simulated Windows compromise from three log sources, from account creation to C2 communication, and extracted IOCs with a prioritized response plan.</p>
+        <div class="result">
+          <div>Persistence: <b>Startup-folder URL shortcut</b></div>
+          <div>C2: <b>193.46.217.4:7777</b></div>
+        </div>
+        <details>
+          <summary>View investigation details</summary>
+          <div class="d-body">
+            <div>
+              <h4>Findings</h4>
+              <ul>
+                <li>Unauthorized local account <code>svc_sysrestore</code> created and added to Backup Operators.</li>
+                <li><code>ckjg.exe</code> downloaded through Chrome by one user, then executed.</li>
+                <li>Persistence via <code>DeleteApp.url</code> in the Startup folder.</li>
+                <li>DNS lookup of <code>hkfasfsafg.click</code> and an outbound connection to the C2 address.</li>
+                <li>PowerShell history showed recon and system changes by a second user.</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Recommendations</h4>
+              <ul>
+                <li>Isolate the host; terminate the malware and remove the startup link.</li>
+                <li>Delete the rogue account and audit Backup Operators changes.</li>
+                <li>Block the C2 IP and domain at the firewall.</li>
+                <li>Rotate credentials for the affected accounts.</li>
+                <li>Submit the file and domain to threat intelligence platforms.</li>
+              </ul>
+            </div>
+            <figure class="shot full">
+              <img src="assets/projects/sysmon-c2-event.jpg" width="1400" height="576" loading="lazy" alt="Sysmon Event ID 3 showing a network connection from ckjg.exe to 193.46.217.4 on port 7777">
+              <figcaption>Sysmon Event ID 3: the malware's connection to the C2 server on port 7777.</figcaption>
+            </figure>
+          </div>
+          <div class="t-links"><a class="btn btn-ghost" href="https://github.com/karthiksasath-gif/cybersecurity-portfolio/tree/main/windows-security-and-sysmon-investigation" target="_blank" rel="noopener">Full write-up on GitHub</a></div>
+        </details>
+      </article>
+
+      <!-- PRJ-03 -->
+      <article class="ticket reveal" data-cat="investigation">
+        <div class="t-head"><span class="t-id">PRJ-03</span><span class="tag">Investigation</span><span class="sev crit">Highest finding: Critical</span></div>
+        <h3>Log Analysis with SIEM (Splunk)</h3>
+        <p class="t-meta">Lab: TryHackMe · Splunk · SPL · Sysmon · Linux auth logs · web server logs</p>
+        <p class="t-sum">Investigated alerts across Windows, Linux and a web server in Splunk and tied them into one multi-stage intrusion, with a severity rating and fix for each finding.</p>
+        <div class="result">
+          <div>Windows: <b>malicious binary + scheduled task (High)</b></div>
+          <div>Linux: <b>privilege escalation + cron reverse shell (Critical)</b></div>
+        </div>
+        <details>
+          <summary>View investigation details</summary>
+          <div class="d-body">
+            <div>
+              <h4>Findings</h4>
+              <ul>
+                <li><b>Windows (High):</b> <code>SharePoInt.exe</code> in a Temp folder made an outbound connection (Sysmon Event 3) and persisted through a scheduled task.</li>
+                <li><b>Linux (Critical):</b> a compromised user escalated to root, created an unauthorized SSH account and added a cron-based Python reverse shell.</li>
+                <li><b>Web (Medium):</b> brute force against <code>/wp-login.php</code> from one IP, fingerprinted as WPScan by its user agent.</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Recommendations</h4>
+              <ul>
+                <li>Isolate the Windows host; kill the process and remove the task.</li>
+                <li>Disable the rogue account, remove the cron entry, rotate credentials.</li>
+                <li>Block the attacking IP, rate-limit the login page and enable 2FA.</li>
+              </ul>
+            </div>
+            <figure class="shot full">
+              <img src="assets/projects/splunk-sysmon-search.jpg" width="1400" height="528" loading="lazy" alt="Splunk search results table for Sysmon network connection events">
+              <figcaption>Splunk: search on the destination port to find the malicious process's connection.</figcaption>
+            </figure>
+          </div>
+          <div class="t-links"><a class="btn btn-ghost" href="https://github.com/karthiksasath-gif/cybersecurity-portfolio/tree/main/Log-Analysis-with-SIEM-Splunk" target="_blank" rel="noopener">Full write-up on GitHub</a></div>
+        </details>
+      </article>
+
+      <!-- PRJ-04 -->
+      <article class="ticket reveal" data-cat="platform">
+        <div class="t-head"><span class="t-id">PRJ-04</span><span class="tag">SIEM platform</span></div>
+        <h3>Wazuh SIEM &amp; XDR Platform Exploration</h3>
+        <p class="t-meta">Lab: TryHackMe · Wazuh · CIS benchmarks · vulnerability detection · FIM</p>
+        <p class="t-sum">Worked through the platform side of a SIEM: agents, IT hygiene, compliance scoring, vulnerability detection and how logs become alerts through decoders and rules.</p>
+        <div class="result">
+          <div>Hunt result: <b>Cobalt Strike signature in Defender events</b></div>
+          <div>Linux CIS score: <b>46%</b></div>
+        </div>
+        <details>
+          <summary>View project details</summary>
+          <div class="d-body">
+            <div>
+              <h4>What I did</h4>
+              <ul>
+                <li>Reviewed Windows and Linux agents: hardware, listening ports, local users and installed software.</li>
+                <li>Read CIS benchmark results and CVE findings, for example the latest Notepad++ CVE on the Windows agent.</li>
+                <li>Queried Defender events in Discover and found <code>Trojan:Win32/CobaltStrike.PU!MTB</code>.</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Concepts covered</h4>
+              <ul>
+                <li>Group-level log collection (Linux auth log, Windows Defender and Sysmon channels).</li>
+                <li>Decoders and a two-stage PowerShell rule chain (broad collection, then a level-12 alert).</li>
+                <li>File Integrity Monitoring, Active Response and compliance mapping, reviewed rather than built.</li>
+              </ul>
+            </div>
+            <figure class="shot full">
+              <img src="assets/projects/wazuh-dashboard.jpg" width="1400" height="540" loading="lazy" alt="Wazuh dashboard showing 5,495 total events and alerts by level">
+              <figcaption>Wazuh demo dashboard: 5,495 total events.</figcaption>
+            </figure>
+          </div>
+          <div class="t-links"><a class="btn btn-ghost" href="https://github.com/karthiksasath-gif/cybersecurity-portfolio/tree/main/wazuh-siem-exploration" target="_blank" rel="noopener">Full write-up on GitHub</a></div>
+        </details>
+      </article>
+
+      <!-- PRJ-05 -->
+      <article class="ticket reveal" data-cat="triage">
+        <div class="t-head"><span class="t-id">PRJ-05</span><span class="tag">Alert triage</span></div>
+        <h3>SOC Alert Triage Workflow</h3>
+        <p class="t-meta">Lab: TryHackMe SOC simulator · SIEM alert queue</p>
+        <p class="t-sum">Worked an alert queue by severity and age and wrote a verdict with analyst notes for each alert. Two of the three alerts were false positives, and the write-up explains why.</p>
+        <div class="result">
+          <div>Verdicts: <b>1 True Positive, 2 False Positives</b></div>
+          <div>Highest severity alert: <b>Critical, but benign (Zoom)</b></div>
+        </div>
+        <details>
+          <summary>View investigation details</summary>
+          <div class="d-body">
+            <div>
+              <h4>Cases</h4>
+              <ul>
+                <li><b>Critical, False Positive:</b> 5.8 GB upload flagged as exfiltration; destination was Zoom from a meeting-room device.</li>
+                <li><b>High, True Positive:</b> <code>.mp4.exe</code> double-extension file downloaded from a lure domain.</li>
+                <li><b>Low, False Positive:</b> a developer cloning the official React repository.</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Response for the True Positive</h4>
+              <ul>
+                <li>Isolate the host and quarantine the file.</li>
+                <li>Check process logs for anything the file spawned.</li>
+                <li>Block the lure domain and notify the user.</li>
+                <li>Escalate to Tier 2 if lateral movement or persistence appears.</li>
+              </ul>
+            </div>
+            <figure class="shot full">
+              <img src="assets/projects/alert-queue.jpg" width="1400" height="613" loading="lazy" alt="SIEM alert queue listing alerts by severity, status and verdict">
+              <figcaption>The alert queue, sorted by severity and time before assignment.</figcaption>
+            </figure>
+          </div>
+          <div class="t-links"><a class="btn btn-ghost" href="https://github.com/karthiksasath-gif/cybersecurity-portfolio/tree/main/soc-alert-triage-workflow" target="_blank" rel="noopener">Full write-up on GitHub</a></div>
+        </details>
+      </article>
+
+      <!-- PRJ-06 -->
+      <article class="ticket reveal" data-cat="triage">
+        <div class="t-head"><span class="t-id">PRJ-06</span><span class="tag">Escalation</span><span class="sev high">Highest alert: High</span></div>
+        <h3>SOC L1 Alert Reporting &amp; Escalation</h3>
+        <p class="t-meta">Lab: TryHackMe SOC simulator · DLP · email security · endpoint telemetry</p>
+        <p class="t-sum">Investigated three True Positive alerts, wrote the analyst comment for each and escalated them to an L2 analyst with the context needed to act.</p>
+        <div class="result">
+          <div>Alerts: <b>data sharing, phishing, AD enumeration</b></div>
+          <div>All three: <b>escalated to L2</b></div>
+        </div>
+        <details>
+          <summary>View investigation details</summary>
+          <div class="d-body">
+            <div>
+              <h4>Cases</h4>
+              <ul>
+                <li><b>Medium:</b> HR spreadsheet shared to an external ProtonMail address after a bulk download was blocked by DLP.</li>
+                <li><b>Medium:</b> spoofed Microsoft email with a <code>.rar</code> attachment; SPF and DKIM both failed.</li>
+                <li><b>High:</b> <code>w3wp.exe</code> to <code>revshell.exe</code> to <code>cmd.exe</code> on a DMZ Exchange server running AD enumeration commands.</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Actions recommended</h4>
+              <ul>
+                <li>Contact the user, recall the share and notify Compliance.</li>
+                <li>Purge the phishing email, confirm the attachment was not opened, block the sender.</li>
+                <li>Isolate the Exchange server and hunt for the web-shell entry point.</li>
+              </ul>
+            </div>
+            <figure class="shot full">
+              <img src="assets/projects/phishing-escalation.jpg" width="982" height="694" loading="lazy" alt="Alert form for an email marked as phishing, with analyst comment and True Positive verdict">
+              <figcaption>Analyst comment and True Positive verdict on the phishing alert, before escalation.</figcaption>
+            </figure>
+          </div>
+          <div class="t-links"><a class="btn btn-ghost" href="https://github.com/karthiksasath-gif/cybersecurity-portfolio/tree/main/soc-l1-alert-reporting" target="_blank" rel="noopener">Full write-up on GitHub</a></div>
+        </details>
+      </article>
+
+    </div>
+    <p class="note">All project work was done in lab environments. All six write-ups are in my <a href="https://github.com/karthiksasath-gif/cybersecurity-portfolio" target="_blank" rel="noopener">GitHub portfolio repository</a>.</p>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" aria-labelledby="exp-title">
+  <div class="wrap">
+    <p class="eyebrow">03 / Experience</p>
+    <h2 class="sec-title" id="exp-title">Professional experience</h2>
+    <div class="job reveal">
+      <div class="job-head"><h3>Intern</h3><span class="when">May 2025 – July 2025</span></div>
+      <p class="org">Sworks Infotech Pvt Ltd</p>
+      <ul>
+        <li>Supported security operations by monitoring, analyzing and documenting security events using SIEM and IDS/IPS tools.</li>
+        <li>Assisted with vulnerability assessments and security reviews across systems and applications.</li>
+        <li>Performed network traffic analysis and log inspection with Wireshark, Wazuh and Snort to identify suspicious activity.</li>
+        <li>Documented findings, risks and mitigation recommendations for incident response workflows, following established escalation procedures.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" aria-labelledby="skills-title">
+  <div class="wrap">
+    <p class="eyebrow">04 / Technical skills</p>
+    <h2 class="sec-title" id="skills-title">Skills &amp; tools</h2>
+    <div class="skills">
+      <div class="skill reveal"><h3>Security operations</h3><ul class="pills"><li>Security monitoring</li><li>Alert analysis</li><li>Incident triage</li><li>Incident investigation</li><li>Incident response</li><li>Log analysis</li><li>Threat hunting</li><li>Vulnerability assessment</li><li>Incident escalation</li></ul></div>
+      <div class="skill reveal"><h3>SIEM &amp; security tools</h3><ul class="pills"><li>Splunk</li><li>Elastic Security</li><li>Wazuh</li><li>Microsoft Sentinel</li><li>Sysmon</li><li>Wireshark</li><li>Snort</li><li>Nmap</li></ul></div>
+      <div class="skill reveal"><h3>Detection engineering</h3><ul class="pills"><li>KQL</li><li>EQL</li><li>SPL</li><li>Detection rules</li><li>Threshold &amp; correlation rules</li><li>Alert tuning</li><li>False-positive analysis</li></ul></div>
+      <div class="skill reveal"><h3>Frameworks &amp; standards</h3><ul class="pills"><li>MITRE ATT&amp;CK</li><li>NIST CSF</li><li>ISO/IEC 27001 (fundamentals)</li></ul></div>
+      <div class="skill reveal"><h3>Security analysis</h3><ul class="pills"><li>Attack chain analysis</li><li>IOC analysis</li><li>CVE analysis</li><li>Malware analysis</li><li>Event correlation</li></ul></div>
+      <div class="skill reveal"><h3>Networking, OS &amp; reporting</h3><ul class="pills"><li>TCP/IP</li><li>DNS</li><li>DHCP</li><li>HTTP/HTTPS</li><li>Network traffic analysis</li><li>Windows</li><li>Linux</li><li>Incident reports</li><li>Handover summaries</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS + VIRTUAL EXPERIENCE -->
+<section id="certifications" aria-labelledby="cert-title">
+  <div class="wrap">
+    <p class="eyebrow">05 / Certifications &amp; training</p>
+    <h2 class="sec-title" id="cert-title">Certifications &amp; virtual experience</h2>
+    <div class="two">
+      <div class="panel reveal">
+        <span class="status done">Completed</span>
+        <ul class="cert-list">
+          <li><span>Fortinet NSE 1: Cybersecurity and Cloud Fundamentals 1.0</span><span class="d">Sep 2026</span></li>
+          <li><span>Fortinet NSE 2: Introduction to Next Generation Firewall 1.0</span><span class="d">Oct 2026</span></li>
+          <li><span>Intro to Splunk (Splunk Education)</span><span class="d">Jan 2026</span></li>
+        </ul>
+      </div>
+      <div class="panel reveal">
+        <span class="status prog">In progress</span>
+        <ul class="cert-list">
+          <li><span>TryHackMe SOC Level 1 path</span><span class="d">In progress</span></li>
+          <li><span>AWS Security Learning Plan: Threat Detection and Incident Response</span><span class="d">In progress</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="panel reveal" style="margin-top:20px">
+      <h3>Virtual experience programs (Forage), December 2025</h3>
+      <ul class="cert-list">
+        <li><span>TCS Cybersecurity: IAM Developer <em>(Virtual Job Simulation)</em></span><span class="d">Dec 2025</span></li>
+        <li><span>Shields Up: Cybersecurity Virtual Experience Program, AIG <em>(Virtual Experience)</em></span><span class="d">Dec 2025</span></li>
+        <li><span>Datacom Cyber Security Operations <em>(Virtual Experience Program)</em></span><span class="d">Dec 2025</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" aria-labelledby="edu-title">
+  <div class="wrap">
+    <p class="eyebrow">06 / Education</p>
+    <h2 class="sec-title" id="edu-title">Education</h2>
+    <div class="edu">
+      <div class="panel reveal"><h3>M.Sc Cyber Forensics and Cyber Security</h3><p class="when">Aug 2024 – May 2026 · Completed</p><p>Amity University, Noida, Uttar Pradesh, India</p></div>
+      <div class="panel reveal"><h3>B.Sc Forensic Science</h3><p class="when">Jul 2021 – Apr 2024 · Completed</p><p>Madurai Kamaraj University, Madurai, Tamil Nadu, India</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume" aria-labelledby="resume-title">
+  <div class="wrap">
+    <p class="eyebrow">07 / Resume</p>
+    <h2 class="sec-title" id="resume-title">Resume</h2>
+    <div class="resume-box">
+      <div class="reveal">
+        <p class="sec-lead" style="margin-bottom:0">Read it in the browser or save a copy. For anything else, email or LinkedIn is the best way to reach me.</p>
+        <div class="resume-actions">
+          <a class="btn btn-primary" href="assets/resume/Karthik_S_SOC_Analyst_Resume.pdf" target="_blank" rel="noopener">View resume (PDF)</a>
+          <a class="btn btn-ghost" href="assets/resume/Karthik_S_SOC_Analyst_Resume.pdf" download>Download resume</a>
+        </div>
+      </div>
+      <object class="pdf" data="assets/resume/Karthik_S_SOC_Analyst_Resume.pdf#view=FitH" type="application/pdf" aria-label="Resume preview">
+        <p>Your browser can't show the PDF inline. <a href="assets/resume/Karthik_S_SOC_Analyst_Resume.pdf">Open the resume</a>.</p>
+      </object>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" aria-labelledby="contact-title">
+  <div class="wrap">
+    <p class="eyebrow">08 / Contact</p>
+    <h2 class="sec-title" id="contact-title">Get in touch</h2>
+    <p class="sec-lead">Open to entry-level SOC Analyst, Security Analyst and Incident Response opportunities. Email or LinkedIn is the quickest way to reach me, and I'm happy to set up a call from there.</p>
+    <div class="contact-grid">
+      <a class="c-card reveal" href="mailto:karthiksasath@gmail.com"><small>Email</small><span>karthiksasath@gmail.com</span></a>
+      <a class="c-card reveal" href="https://www.linkedin.com/in/karthik-s04/" target="_blank" rel="noopener"><small>LinkedIn</small><span>linkedin.com/in/karthik-s04</span></a>
+      <a class="c-card reveal" href="https://github.com/karthiksasath-gif/cybersecurity-portfolio" target="_blank" rel="noopener"><small>GitHub</small><span>karthiksasath-gif / cybersecurity-portfolio</span></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr">2026</span> Karthik S · Chennai, India</span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -16,4 +16,4 @@ docs/
 ## Updating
 - Resume: replace `assets/resume/Karthik_S_SOC_Analyst_Resume.pdf` with a file of the same name.
 - New project: copy one `<article class="ticket">` block in `index.html` and edit the text and screenshot.
-- Edit any file with the pencil icon on GitHub and commit; the site refreshes in about a minute.
+- Edit any file with the pencil icon on GitHub and commit; the site refreshes in about a minute. 

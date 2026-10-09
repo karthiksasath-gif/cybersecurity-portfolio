@@ -168,12 +168,15 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
   .d-body,.two,.edu{grid-template-columns:1fr}
   .pdf{display:none}
 }
-@media (max-width:760px){
-  section{padding:60px 0}
-  .nav-btn{display:block}
+@media (max-width:1000px){
+  .nav-btn{display:block;order:-1}
+  .nav .wrap{justify-content:flex-start;gap:14px}
   .menu{display:none;position:absolute;top:64px;left:0;right:0;flex-direction:column;gap:0;background:var(--bg);border-bottom:1px solid var(--line);padding:8px 24px 16px}
   .menu.open{display:flex}
   .menu a{display:block;padding:14px 0;font-size:16px;border-bottom:1px solid var(--line)}
+}
+@media (max-width:760px){
+  section{padding:60px 0}
   .contact-grid{grid-template-columns:1fr}
   .profile{padding-top:40px}
 }
